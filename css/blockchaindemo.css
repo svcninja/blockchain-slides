@@ -42,10 +42,31 @@
     background-position: center;  
     z-index: 999;
 }
-
+.inlinerow {
+    text-shadow: 2px 2px 5px red;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    font-size: 40pt;
+}
+#inlinerowKid1 > h1 {
+    text-shadow: 2px 2px 10px red;
+}
+#inlinerowKid2 > h1 {
+    text-shadow: 2px 2px 10px red;
+}
+.inlinerow div {
+    display: inline;
+    vertical-align: middle;
+    width: 25%;
+}
+.inlinerow li {
+    display: inline;
+}
 
 #BBCTitle {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
     font-size: 40pt;
 }
+
+
