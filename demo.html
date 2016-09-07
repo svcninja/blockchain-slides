@@ -51,7 +51,11 @@
 					<div class="fragment fade-in" data-fragment-index="1" id="dilbertIconDiv"><img id="dilbertIconImg" src="img/Dilbert.png"></div>
 					<div class="fragment fade-in" data-fragment-index="1" id="dilbertBcDiv"><img id="dilbertBcImg" src="img/Dilbert-blockchain.jpg"></div>
 				</section>
-				<section data-background-video="video/BBCIntro.mp4">
+				<section data-state="slide3" data-background-video="video/BBCIntro.mp4">
+					<h1><span id="BBCTitle">BBC's Intro To Ƀlockchain</span></h1>
+				</section>
+				<section data-state="slide4">
+					
 				</section>
 			</div>
 
@@ -59,6 +63,8 @@
 
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 		<script type="text/javascript" src="js/particle-network.min.js"></script>
 		<script>
 
@@ -91,6 +97,10 @@
 			};
 			var particleCanvas = new ParticleNetwork(canvasDiv, options);
 
+			Reveal.addEventListener( 'slide3', function() {
+				var bbcTitle =$( "#BBCTitle" )
+			  	TweenMax.to(bbcTitle, 5, { opacity:0 , ease:Power1.easeInOut});
+			}, false );
 		</script>
 
 	</body>
