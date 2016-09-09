@@ -122,8 +122,18 @@
 						</div>
 					</div>
 				</section>
-				<section data-state="slide7" data-background-image="img/ConnectedWorld.jpg">
-					
+				<section id="hlsec" data-state="slide7" data-background-image="img/ConnectedWorld.jpg">
+					<div id="hlcontainer">
+					    <div id="hlcenter"><img src="img/HyperledgerIcon.png"></div>
+					    <div id="hlcrosshair-x"></div>
+					    <div id="hlcrosshair-y"></div>
+					    <div class="hlfield"><img src="img/hl_w_ibm.png"></div>
+					    <div class="hlfield"><img src="img/hl_w_jpmorgan.png"></div>
+					    <div class="hlfield"><img src="img/hl_w_digasset.png"></div>
+					    <div class="hlfield"><img src="img/hl_w_blockstream.png"></div>
+					    <div class="hlfield"><img src="img/hl_w_intel.png"></div>
+					    <div class="hlfield"><img src="img/hl_w_ripple.png"></div>
+					</div>
 				</section>
 
 				<section data-state="slide8">
@@ -177,6 +187,22 @@
 				var bbcTitle =$( "#BBCTitle" )
 			  	TweenMax.to(bbcTitle, 5, { opacity:0 , ease:Power1.easeInOut});
 			}, false );
+
+			var radius = 200;
+			var fields = $('.hlfield'), container = $('#hlcontainer'), width = container.width(), height = container.height();
+			var angle = 0, step = (2*Math.PI) / fields.length;
+			fields.each(function() {
+			    var x = Math.round(width/2 + radius * Math.cos(angle) - $(this).width()/2);
+			    var y = Math.round(height/2 + radius * Math.sin(angle) - $(this).height()/2);
+			    if(window.console) {
+			        console.log($(this).text(), x, y);
+			    }
+			    $(this).css({
+			        left: x + 'px',
+			        top: y + 'px'
+			    });
+			    angle += step;
+			});
 		</script>
 
 	</body>
