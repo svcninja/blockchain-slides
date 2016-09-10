@@ -50,7 +50,7 @@
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
     font-size: 40pt;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .inlinerow {
@@ -58,7 +58,7 @@
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
     font-size: 40pt;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #inlinerowKid41 > h1 {
@@ -106,6 +106,7 @@
     height: 600px;
     position: relative;
     margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #hlcenter {
@@ -120,6 +121,7 @@
     width: 170px;
     height: 170px;
     position: absolute;
+    border: none;
 }
 
 #hlcrosshair-x {
@@ -141,3 +143,61 @@
 #hlsec {
     text-align: center;
 }
+
+#componentsTable tbody tr td img .hlcomimg {
+    height: 120px;
+    width: auto;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: none;
+}
+
+#hllogoimg0 {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0
+}
+
+#hllogoimg1 {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0
+}
+
+#hllogoimg2 {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0
+}
+
+#hllogoimg3 {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0
+}
+
+#hllogoimg4 {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0
+}
+
+#hllogoimg5 {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0
+}
+
+#hllogoimg6 {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0
+}
+
+#hllogoimg7 {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0
+}
+
+#hllogoimg8 {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0
+}
+
+#componentsTable {
+    border: 0;
+}
+
