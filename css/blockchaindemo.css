@@ -147,9 +147,36 @@
 #componentsTable tbody tr td img .hlcomimg {
     height: 120px;
     width: auto;
-    border: 0;
+}
+
+#hlcomimg1 {
     background-color: rgba(0, 0, 0, 0);
-    border-style: none;
+    border: 0
+}
+
+#hlcomimg2 {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0
+}
+
+#hlcomimg3 {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0
+}
+
+#hlcomimg4 {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0
+}
+
+#hlcomimg5 {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0
+}
+
+#hlcomimg6 {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0
 }
 
 #hllogoimg0 {
@@ -200,4 +227,3 @@
 #componentsTable {
     border: 0;
 }
-
