@@ -50,7 +50,7 @@
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
     font-size: 40pt;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .inlinerow {
@@ -58,7 +58,7 @@
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
     font-size: 40pt;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 #inlinerowKid41 > h1 {
@@ -118,7 +118,7 @@
     height: 600px;
     position: relative;
     margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 #hlcenter {
@@ -246,3 +246,17 @@
     display:block;
     margin:auto;
 }
+#pbftDiv {
+    content: url('../img/pbft.png');
+    height: 120%;
+    display:block;
+    margin:auto;
+}
+#scenarioDiv {
+    content: url('../img/scenario.png');
+    display:block;
+    margin:0 auto;
+    bottom: 0;
+    width:75%;
+}
+
